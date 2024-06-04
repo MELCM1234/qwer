@@ -1,0 +1,75 @@
+.recetario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.plato {
+    cursor: pointer;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.plato:hover {
+    transform: scale(1.05);
+}
+
+.plato img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.receta {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.receta h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.receta h3 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.receta ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.receta ul li {
+    margin-bottom: 5px;
+}
+
+.receta ol {
+    margin-bottom: 20px;
+}
+
+.receta ol li {
+    margin-bottom: 5px;
+}
+
+.receta iframe {
+    border: none;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(227, 191, 126);
+}
+h1{
+    font-family: "Lugrasimo", cursive;
+  }
